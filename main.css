@@ -1,0 +1,55 @@
+.navbar{
+    border: black 3px solid;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+
+#leftSection{
+    float: left;
+    width: 20%;
+    background: #d1d1d1;
+    }
+
+
+
+.left a{
+    display: block;
+    text-decoration: none;
+    color: #2160e2;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 0px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+a:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+a:hover {
+    background: #ddd;
+}
+.right{
+    padding: 15px;
+    margin-left: 20px; 
+    float: left;
+    display: inline;
+    width: 70%;
+    background: #eaeaea;
+
+}
